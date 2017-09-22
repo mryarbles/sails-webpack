@@ -1,6 +1,6 @@
 {
   "name": "sails-webpack",
-  "version": "1.0.13",
+  "version": "3.0.1",
   "description": "Webpack asset pipeline hook for Sails",
   "keywords": [
     "sails",
@@ -14,7 +14,7 @@
   "dependencies": {
     "lodash": "^3.10.1",
     "marlinspike": "^1.0",
-    "webpack": "^1.9.6"
+    "webpack": "^3.6.0"
   },
   "scripts": {
     "prepublish": "gulp",
@@ -23,7 +23,7 @@
   "main": "dist/api/hooks/webpack/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdash-projects/sails-webpack.git"
+    "url": "git://github.com/mryarbles/sails-webpack.git"
   },
   "author": {
     "name": "Weyland Joyner",
@@ -37,6 +37,10 @@
     {
       "name": "Travis Webb",
       "email": "tjwebb@balderdash.io"
+    },
+    {
+      "name": "Luke Grannis",
+      "email": "mryarbles@gmail.com"
     }
   ],
   "devDependencies": {

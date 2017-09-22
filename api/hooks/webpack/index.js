@@ -10,6 +10,7 @@ class Webpack extends Marlinspike {
   configure () {
     let config = this.sails.config
 
+
     if (!config.webpack.options) {
       sails.log.warn('sails-webpack: no Webpack "options" are defined.')
       sails.log.warn('sails-webpack: Please configure config/webpack.js')
