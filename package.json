@@ -20,7 +20,7 @@
     "prepublish": "gulp",
     "test": "mocha"
   },
-  "main": "dist/api/hooks/webpack/index.js",
+  "main": "api/hooks/webpack/index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/mryarbles/sails-webpack.git"
