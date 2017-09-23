@@ -1,6 +1,6 @@
 {
   "name": "sails-webpack",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Webpack asset pipeline hook for Sails",
   "keywords": [
     "sails",
@@ -20,7 +20,7 @@
     "prepublish": "gulp",
     "test": "mocha"
   },
-  "main": "api/hooks/webpack/index.js",
+  "main": "dist/api/hooks/webpack/index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/mryarbles/sails-webpack.git"
